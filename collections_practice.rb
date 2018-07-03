@@ -48,7 +48,7 @@ def add_s(array)
   word << "s"
   new << word
 end
-new[0][1].pop
+new[1].delete "s"
 return new
 end
     

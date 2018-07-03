@@ -48,7 +48,7 @@ def add_s(array)
   word << "s"
   new << word
 end
-new[1].delete "s"
+new[1] = "feet"
 return new
 end
     
